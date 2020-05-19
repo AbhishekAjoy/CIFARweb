@@ -1,0 +1,22 @@
+.bg{
+    background-image: url("https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    color: white;
+     font-family: 'Raleway', sans-serif;
+     font-size: 1.3em;
+     background-repeat: no-repeat;
+     background-size: cover;
+     backdrop-filter: contrast(200%);
+}
+a {
+  color: red;
+}
+a:hover{
+    color: white;
+    
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
