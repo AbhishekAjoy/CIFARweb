@@ -16,6 +16,7 @@ import {
 import { ApiService } from "./api.service";
 import { DropzoneDirective } from './dropzone.directive';
 import { UploadTaskComponent } from './upload-task/upload-task.component';
+import { FileSizePipe } from './file-size.pipe';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { UploadTaskComponent } from './upload-task/upload-task.component';
     PredictorComponent,
     DropzoneDirective,
     UploadTaskComponent,
+    FileSizePipe,
    
   ],
   imports: [
